@@ -1,0 +1,162 @@
+﻿body {
+    text-align:center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 26.4px;
+}
+.mainContent{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    min-height:96vh;
+    margin:auto;
+    border:2px solid black;
+    text-align:center;
+}
+header{
+    background:#1a1a1a; 
+    text-align:center;
+}
+.headerText{
+    margin:auto;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 10vh;
+    color:white;
+}
+.gameStartText{margin-top:2vh}
+
+.table{
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    margin-top:5vh;
+    height:240px;
+    width:240px;
+}
+.Row{
+    display:flex;
+    flex-direction:row;
+    height:80px;
+    width:inherit;
+}
+.Row-2{
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+}
+.Col{
+    height:80px;
+    width:80px;
+}
+.Col-2{
+    border-left:3px solid black;
+    border-right:3px solid black;
+}
+#gameStartTextLabel{
+    color:red;
+}
+.Label{
+    margin:auto;
+}
+.ImgButton{
+    padding:2px 2px 2px 2px;
+    height:72px;
+    width:72px;
+    background:transparent;
+    font-size:large;
+    font-weight:600;
+} 
+.ImgButton:disabled{
+    font-weight:normal;
+    font-size:46px;
+    color:black;
+    opacity:1.0;
+}
+
+.buttonContainer{
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    margin-top:20px;
+    text-align:center;
+    border:none;
+    outline:none;
+    background:none;
+}
+.table2{
+    display:flex;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+    margin:auto;
+    margin-top:4vh;
+
+}
+.table2Row{
+    display:flex;
+    flex-direction:row;
+    -webkit-flex-direction:row;
+    
+}
+.resetButtonDiv{
+    margin-top:10px;
+}
+.difficultyText{
+    line-height:16px;
+}
+.Button{
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background:white;
+    border:2px solid black;
+    border-radius:4px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+    color:black;
+}
+.Button:hover{
+    background:#0d0d0d;
+    border:2px solid #0d0d0d;
+    color:white;
+}
+#Reset_Button{
+    background:#0d0d0d;
+    padding:8px 10px 10px ;
+    border:2px solid red;
+    border-radius:8px;
+    margin:auto;
+    color:white;
+}
+#Reset_Button:hover{
+    background:white;
+    border:2px solid #0d0d0d;
+    color:black;
+}
+
+.difficultyButtons{
+    padding:2px 4px;
+    margin:auto;
+}
+.difficultyButtons:disabled{
+    border:none;
+    background:none;
+}
+.winnerLabelContainer{
+    margin-top:10px;
+    text-align:center;
+}
+#labelWinner{
+    margin:auto;
+    color:red;
+}
+#Table1{
+    margin:auto;
+}
